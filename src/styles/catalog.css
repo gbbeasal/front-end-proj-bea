@@ -1,0 +1,54 @@
+.Catalog {
+    display:flex;
+}
+
+.productContainer {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.subtotal {
+    background-color: #EBEBEB;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    margin: 10px;
+}
+  
+.subtotal > span {
+    padding-bottom: 20px;
+}
+  
+.title {
+    font-size: 30px;
+}
+
+.products {
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    font-size: 10px;
+}
+
+.left-column {
+    width: 50%;
+    position: relative;
+}
+
+.right-column {
+    width: 50%;
+    margin-top: 60px;
+    
+  }
+
+.astro {
+    width: 100%;
+    height: auto;
+    margin-top:5%;
+    margin-bottom:5%;
+}

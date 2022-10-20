@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { Container } from "react-bootstrap";
+import { Route, Routes } from "react-router-dom";
+import { Footer } from "./components/Footer";
+import { Navbar } from "./components/Navbar";
+import { AboutUs } from "./pages/AboutUs";
+import { Lucky } from "./pages/Lucky";
+import { Filler } from "./pages/Filler";
+import { Cart } from "./components/Cart";
+import { Checkout } from "./components/Checkout";
+import { Home } from "./pages/Home";
+import { OnlineCatalog } from "./pages/OnlineCatalog";
+import { StoreInfo } from "./pages/StoreInfo";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar/>
+        <Container className="mb-4">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/onlinecatalog" element={<OnlineCatalog />} />
+              <Route path="/store" element={<StoreInfo />} />
+              <Route path="/about" element={<AboutUs />} />
+              <Route path="/filler" element={<Filler />} />
+              <Route path="/cart" element={<Cart />} />
+              <Route path="/checkout" element={<Checkout />} />
+              <Route path="/lucky" element={<Lucky />} />
+            </Routes>
+        </Container>
+        <Footer/>
     </div>
   );
 }

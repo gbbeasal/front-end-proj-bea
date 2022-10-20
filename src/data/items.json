@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "name": "Book",
+      "imgUrl": "https://www.muji.com/ph/sub-banners2022/octmainsub.jpg",
+      "description": "Reconnect with the World Around You"
+    },
+    {
+      "id": 2,
+      "name": "Computer",
+      "imgUrl": "https://www.muji.com/ph/sub-banners2022/homefairsub.jpg",
+      "description": "Home Fair"
+    },
+    {
+      "id": 3,
+      "name": "Banana",
+      "imgUrl": "https://www.muji.com/ph/sub-banners2022/plannersub.jpg",
+      "description": "2023 Planners and Calendars"
+    },
+    {
+      "id": 4,
+      "name": "Car",
+      "imgUrl": "https://www.muji.com/ph/sub-banners2022/hardcarrycase.jpg",
+      "description": ""
+    },
+    {
+      "id": 5,
+      "name": "Car2",
+      "imgUrl": "https://www.muji.com/ph/sub-banners2022/newgarmentsaug.jpg",
+      "description": ""
+    },
+    {
+      "id": 6,
+      "name": "Car2",
+      "imgUrl": "https://www.muji.com/ph/sub-banners2022/octgarsub.jpg",
+      "description": "Turkish Cotton Reusable Bags"
+    },
+    {
+      "id": 7,
+      "name": "Car2",
+      "imgUrl": "https://www.muji.com/ph/sub-banners2022/octhhsub.jpg",
+      "description": "My Water Bottle"
+    },
+    {
+      "id": 8,
+      "name": "Car2",
+      "imgUrl": "https://www.muji.com/ph/sub-banners/sale.jpg",
+      "description": ""
+    },
+    {
+      "id": 9,
+      "name": "Car2",
+      "imgUrl": "https://www.muji.com/ph/sub-banners2022/centralsquare.jpg",
+      "description": ""
+    }
+  ]

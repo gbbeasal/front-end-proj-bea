@@ -1,0 +1,52 @@
+.main-footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+.main-footer .row-1 {
+    margin-top: 1rem;
+    padding-top: 10px;
+    padding-bottom: 0.5px;
+    padding-left: 25px;
+    background-color: #EBEBEB;
+}
+
+.main-footer .row-2 {
+    padding-top: 10px;
+    padding-bottom: 0.5px;
+    padding-left: 25px;
+    background-color: black;
+    color:white;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type:none;
+}
+
+li img {
+    float: left;
+    width:  30px;
+    height: 30px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.no-underline:hover
+{
+color: white;
+text-decoration: none;
+}
+
+
+
+
