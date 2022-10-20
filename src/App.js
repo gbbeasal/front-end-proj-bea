@@ -35,3 +35,9 @@ function App() {
 }
 
 export default App;
+
+/* Dependencies:
+npm install @faker-js/faker
+npm install react-icons
+npm i react-router-dom bootstrap react-bootstrap
+ */ 
