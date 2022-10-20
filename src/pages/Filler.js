@@ -30,7 +30,6 @@ export function Filler() {
       return <div className="App">{error}</div>;
     }
 
-
     return(
         <div>
             <h1 className="m-4">PAGE UNDER CONSTRUCTION</h1>

@@ -1,4 +1,4 @@
-import { Badge, Container, Nav, Navbar as NavbarBS } from "react-bootstrap"; //Dropdown, Button, FormControl
+import { Badge, Container, Nav, Navbar as NavbarBS } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa";
 import { CartState } from "../context/Context";

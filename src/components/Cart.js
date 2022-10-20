@@ -3,48 +3,11 @@ import { ListGroup, Button, Row, Col, Form, Image, Nav } from "react-bootstrap"
 import { CartState } from "../context/Context"
 import "../styles/catalog.css"
 import { NavLink } from "react-router-dom";
-// import { useStripe } from "@stripe/react-stripe-js";
-// import { fetchFromAPI } from "../context/helpers";
 
 export function Cart() {
 
     const {state: {cart}, dispatch} = CartState();
     const [total, setTotal] = useState();
-    // const [email, setEmail] = useState("");
-    // const stripe = useStripe();
-
-    // const handleGuestCheckout = async (e) => {
-    //     e.prevent.default();
-
-        // const line_items = cart.map(item => {
-        //     return {
-        //         quantity: item.qty,
-        //         price_data:{
-        //             currency: 'usd',
-        //             unit_amount: item.price * 100,
-        //             product_data: {
-        //                 name: item.name,
-        //                 images: [item.image]
-        //             }
-        //         }
-        //     }
-        // });
-
-
-    //     const response = await fetchFromAPI('create-checkout-session', {
-    //         body: { line_items, customer_email:email},
-    //     });
-
-    //     const { sessionId } = response;
-    //     const { error } = await stripe.redirectToCheckout({
-    //         sessionId
-    //     });
-
-    //     if (error) {
-    //         console.log(error)
-    //     }
-
-    // }
 
     useEffect(() => {
         setTotal(
@@ -104,16 +67,11 @@ export function Cart() {
                 <div className="subtotal">
                     <span className="title">Subtotal ({cart.length} items)</span>
                     <span style={{ fontWeight: 700, fontSize: 20 }}>Total: ₱ {total}</span>
-                    {/* <Form onSubmit={handleGuestCheckout}>
-                        <div>
-                            <input type='email' onChange={e => setEmail(e.target.value)} placeholder="Email" value={email} className="nomad-input"/>
-                        </div> */}
                     <Nav.Link as={NavLink} to="/checkout">
                     <Button type="submit" variant="success" disabled={cart.length === 0}>
                     Proceed to Checkout
                     </Button>
                     </Nav.Link>
-                    {/* </Form> */}
                 </div>
             </div>
 
