@@ -33,7 +33,7 @@ export function Footer(){
                             <a href="/Store" class="no-underline">Store Info</a>
                         </li>
                         <li>
-                            <a href="https://www.youtube.com/watch?v=8ybW48rKBME" class="no-underline">About MUJI</a>
+                            <a href="/about" class="no-underline">About MUJI</a>
                         </li>
                         <li>
                             <a href="https://www.youtube.com/watch?v=8ybW48rKBME" class="no-underline">Message from MUJI</a>
@@ -53,7 +53,7 @@ export function Footer(){
                             <a href="https://www.youtube.com/watch?v=8ybW48rKBME" class="no-underline">MUJI Philippines Corp.</a>
                         </li>
                         <li>
-                            <a href="https://www.youtube.com/watch?v=8ybW48rKBME" class="no-underline">Privacy Policy</a>
+                            <a href="/credits" class="no-underline">Privacy Policy</a>
                         </li>
                     </ul>
                 </div>

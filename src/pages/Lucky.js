@@ -20,7 +20,7 @@ export function Lucky() {
         setTextValue(textValue);
         setSunSign(textValue);
         setWeeklyUrl(
-        `https://sameer-kumar-aztro-v1.p.rapidapi.com/?sign=${textValue}&day=today`
+        `https://sameer-kumar-aztro-v1.p.rapidapi.com/?sign=${sunSign}&day=today`
         );
         setTextValue("");
     };
@@ -50,6 +50,54 @@ export function Lucky() {
                     <p className="m-3">The best thing fit for a Virgo is {faker.commerce.productDescription()}</p>
                 </div>
             );
+            case "libra":
+                return (
+                    <div>
+                        <img src={faker.image.fashion(450, 450, true)} alt=""/>
+                        <h3>{faker.commerce.productName()}</h3>
+                        <p className="m-3">The best thing fit for a Libra is {faker.commerce.productDescription()}</p>
+                    </div>
+                );
+            case "scorpio":
+                return (
+                    <div>
+                        <img src={faker.image.fashion(450, 450, true)} alt=""/>
+                        <h3>{faker.commerce.productName()}</h3>
+                        <p className="m-3">The best thing fit for a Scorpio is {faker.commerce.productDescription()}</p>
+                    </div>
+                );
+            case "aries":
+                return (
+                    <div>
+                        <img src={faker.image.fashion(450, 450, true)} alt=""/>
+                        <h3>{faker.commerce.productName()}</h3>
+                        <p className="m-3">The best thing fit for a Aries is {faker.commerce.productDescription()}</p>
+                    </div>
+                );
+            case "taurus":
+                return (
+                    <div>
+                        <img src={faker.image.fashion(450, 450, true)} alt=""/>
+                        <h3>{faker.commerce.productName()}</h3>
+                        <p className="m-3">The best thing fit for a Taurus is {faker.commerce.productDescription()}</p>
+                    </div>
+                );
+            case "gemini":
+                return (
+                    <div>
+                        <img src={faker.image.fashion(450, 450, true)} alt=""/>
+                        <h3>{faker.commerce.productName()}</h3>
+                        <p className="m-3">The best thing fit for a Gemini is {faker.commerce.productDescription()}</p>
+                    </div>
+                );
+            case "cancer":
+                return (
+                    <div>
+                        <img src={faker.image.fashion(450, 450, true)} alt=""/>
+                        <h3>{faker.commerce.productName()}</h3>
+                        <p className="m-3">The best thing fit for a Cancer is {faker.commerce.productDescription()}</p>
+                    </div>
+                );
             default:
                 return (
                     <div>
@@ -65,13 +113,9 @@ export function Lucky() {
         <main class=".container-fluid">
             <div className="text-center m-4">
             <h2>What should you buy next? Let's ask the stars!</h2>
-            <p className="m-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <p className="m-2">
+            Having trouble deciding what to wear? Find your ideal wardrobe essentials by using the stars as your guide.
+            We won't find out if you browse the fashions of another zodiac sign <em>(We understand if you've got a bit of Libra in you, you know).</em>
             </p>
             <img src="https://images.milledcdn.com/2018-09-19/jxUA6r2MGaXm2e6q/dY9kbIORFGL3.gif" className="astro" alt=""/>
             </div>
