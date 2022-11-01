@@ -1,3 +1,21 @@
+
+<!-- This web application is a simple Shopping Cart Application that was inspired by MUJI PH.
+
+[A]. APIs used:
+- fakerjs
+- icanhazdadjoke
+- aztro
+
+[B]. Credits:
+This project would not be possible without the help of the following:
+- Inspiration, Media Files: https://www.muji.com/ph/
+- Astrology Inspiration: https://www.uniqlo.com/us/en/news/topics/2018091901/
+- YouTube. (2021). React Shopping Cart Tutorial | Context Api with useReducer Hook in React Js. YouTube. Retrieved October 20, 2022, from https://www.youtube.com/watch?v=HptuMAUaNGk&t=3266s.
+- YouTube. (2022). How To Create An Advanced Shopping Cart With React and TypeScript. YouTube. Retrieved October 20, 2022, from https://www.youtube.com/watch?v=lATafp15HWA.
+
+ -->
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
