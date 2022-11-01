@@ -6,7 +6,7 @@ export function HomeProductsCards({ id, name, imgUrl, description }) {
     return(
         <Card className="h-100">
             {/* <Link to={`/${name}`}> */}
-            <Link to={`/Filler`}>
+            <Link to={`/onlinecatalog`}>
             <span className="w-10 position-absolute text-black" style={{bottom: "8px", left: "16px"}}>
                 <h6>{description}</h6>
             </span>

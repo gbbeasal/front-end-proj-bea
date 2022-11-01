@@ -8,17 +8,17 @@ export function Footer(){
                 <div className='col'>
                     <ul className='socials'>
                         <li>
-                            <a href="https://www.facebook.com/muji.ph" target="_blank">
+                            <a href="https://www.facebook.com/muji.ph">
                                 <img src="https://www.muji.com/img/misc_facebook.png" alt="Facebook Link"/>
                             </a>
                         </li>
                         <li>
-                            <a href="https://instagram.com/muji_ph/" target="_blank">
+                            <a href="https://instagram.com/muji_ph/">
                                 <img src="https://www.muji.com/img/misc_instagram.png" alt="Instagram Link"/>
                             </a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/MUJI_PH" target="_blank">
+                            <a href="https://twitter.com/MUJI_PH">
                                 <img src="https://www.muji.com/img/misc_twitter.png" alt="Twitter Link"/>
                             </a>    
                         </li>

@@ -98,10 +98,42 @@ export function Lucky() {
                         <p className="m-3">The best thing fit for a Cancer is {faker.commerce.productDescription()}</p>
                     </div>
                 );
+            case "sagittarius":
+                return (
+                    <div>
+                        <img src={faker.image.fashion(450, 450, true)} alt=""/>
+                        <h3>{faker.commerce.productName()}</h3>
+                        <p className="m-3">The best thing fit for a Sagittarius is {faker.commerce.productDescription()}</p>
+                    </div>
+                );
+            case "capricorn":
+                return (
+                    <div>
+                        <img src={faker.image.fashion(450, 450, true)} alt=""/>
+                        <h3>{faker.commerce.productName()}</h3>
+                        <p className="m-3">The best thing fit for a Capricorn is {faker.commerce.productDescription()}</p>
+                    </div>
+                );
+            case "aquarius":
+                return (
+                    <div>
+                        <img src={faker.image.fashion(450, 450, true)} alt=""/>
+                        <h3>{faker.commerce.productName()}</h3>
+                        <p className="m-3">The best thing fit for a Aquarius is {faker.commerce.productDescription()}</p>
+                    </div>
+                );
+            case "pisces":
+                return (
+                    <div>
+                        <img src={faker.image.fashion(450, 450, true)} alt=""/>
+                        <h3>{faker.commerce.productName()}</h3>
+                        <p className="m-3">The best thing fit for a Pisces is {faker.commerce.productDescription()}</p>
+                    </div>
+                );
             default:
                 return (
                     <div>
-                        <img src=""/>
+                        <img src="" alt=""/>
                         <h5>Find out which product is best for you</h5>
                     </div>
                 );

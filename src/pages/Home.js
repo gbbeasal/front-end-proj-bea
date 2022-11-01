@@ -41,7 +41,7 @@ export function Home() {
                         <a href="/Store" class="text-reset">More</a>
                     </h6>
                 </span>
-                <iframe width="100%" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=muji%20mall%20of%20asia&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <iframe width="100%" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=muji%20mall%20of%20asia&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="GMap"></iframe>
             </div>
         </div>
     );
